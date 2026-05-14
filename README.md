@@ -1,2 +1,3 @@
 # Luis-Ramirez-Orozco.github.io
-A quick guide to my projects 
+Hi im Luis.
+Here's a quick guide to my projects 
