@@ -1,16 +1,16 @@
 ---
+layout: home
 title: Luis Ramirez Orozco
 ---
 
-# Hi, I'm Luis
+# Luis Ramirez Orozco
 
-I'm a [your role, e.g. "software engineering student"] based in [your city].
-I'm interested in [what you're into, e.g. "web development and data science"].
+I'm an engineer who builds things — from concept to final product.
 
 ## Projects
 
-- [Project name](https://github.com/Luis-Ramirez-Orozco) — one sentence about it
-
-## Contact
-
-- GitHub: [Luis-Ramirez-Orozco](https://github.com/Luis-Ramirez-Orozco)
+<div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px;">
+  <h3 style="margin:0 0 8px">Fidget Clicker</h3>
+  <p style="color:#666; margin:0 0 12px">A physical product taken from concept to manufacture.</p>
+  <a href="/fidget-clicker">View project →</a>
+</div>
