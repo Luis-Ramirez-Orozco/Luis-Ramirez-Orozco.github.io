@@ -17,4 +17,4 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 ## Purchase
 
-[Final Product]([https://yoururl.com](https://fictitiousgroup.etsy.com))
+[Final Product]([https://fictitiousgroup.etsy.com])
