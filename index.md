@@ -3,8 +3,6 @@ layout: home
 title: Luis Ramirez Orozco
 ---
 
-# Luis Ramirez Orozco
-
 I'm an engineer who builds things — from concept to final product.
 
 ## Projects
