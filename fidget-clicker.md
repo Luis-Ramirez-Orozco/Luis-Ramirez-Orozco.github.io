@@ -14,3 +14,7 @@ Learning CAM software from scratch was the steepest part of the process — tran
 ## Photos
 
 *(Add your photos here — I'll show you how in the next step)*
+
+## Purchase
+
+[Final Product]([https://yoururl.com](https://fictitiousgroup.etsy.com))
