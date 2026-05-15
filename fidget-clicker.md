@@ -13,7 +13,10 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 ## Photos
 
-*(Add your photos here — I'll show you how in the next step)*
+![Fidget Clicker](IMG_2671.jpeg)
+![Fidget Clicker](IMG_2678.jpeg)
+![Fidget Clicker](IMG_2680.jpeg)
+![Fidget Clicker](IMG_2705.jpeg)
 
 ## Purchase
 
