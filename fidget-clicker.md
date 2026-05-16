@@ -38,7 +38,9 @@ function changeSlide(dir) {
   document.getElementById('slide-caption').innerText = slides[current].caption;
   document.getElementById('slide-count').innerText = (current+1) + ' / ' + slides.length;
 }
+document.getElementById('slide-img').src = slides[0].img;
 document.getElementById('slide-caption').innerText = slides[0].caption;
+document.getElementById('slide-count').innerText = '1 / ' + slides.length;
 </script>
 
 ## Purchase
