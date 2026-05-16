@@ -27,12 +27,7 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 <script>
 const slides = [
-  { img: "images/1.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "images/2.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "images/3.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "images/4.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "images/5.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "images/6.jpeg", caption: "Write your paragraph for this photo here." }
+  { img: "images/CNC not assembled.jpg", caption: "First thing i had to do was dust off my hobby CNC machine." }
 ];
 let current = 0;
 function changeSlide(dir) {
