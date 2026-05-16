@@ -41,7 +41,9 @@ const slides = [
   
   { img: "images/Fidget Clicker/V3.png", caption: "The next big jump I made was at version 3. This is where I fixed the models ''pedestal'' and began to really experiment with run speeds and depths of cut (DOC)" },
   
-  { img: "images/Fidget Clicker/Speeds&DOC test.JPEG", caption: "I began to test different depths of cut. I learned the machines capabilities and created solutions to problems I saw.... alot of vibration" }
+  { img: "images/Fidget Clicker/Speeds&DOC test.JPEG", caption: "I began to test different depths of cut. I learned the machines capabilities and created solutions to problems I saw.... alot of vibration" },
+
+    { img: "images/Fidget Clicker/Gantry vibration.png", caption: "Z-axis Vibration solved with springs" }
   
   
   
