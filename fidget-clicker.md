@@ -52,6 +52,8 @@ document.getElementById('slide-caption').innerText = slides[0].caption;
 document.getElementById('slide-count').innerText = '1 / ' + slides.length;
 </script>
 
-## Purchase
+## Socials
 
-[Final Product](https://www.etsy.com/listing/4497052829/clicker-fidget-toy-fun-desk-accessory)
+<a href="https://www.etsy.com/listing/4497052829/clicker-fidget-toy-fun-desk-accessory">
+  <img src="images/Etsy.png" style="height:40px;">
+</a>
