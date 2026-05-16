@@ -45,7 +45,9 @@ const slides = [
 
   { img: "images/Fidget Clicker/Gantry vibration.png", caption: "Z-axis Vibration solved with springs" },
 
-  { img: "images/Fidget Clicker/Speeds&DOC test2.JPG", caption: "Runspeeds figured out" }
+  { img: "images/Fidget Clicker/Speeds&DOC test2.JPG", caption: "Runspeeds figured out" },
+
+  { img: "images/Fidget Clicker/Tape method.png", caption: "Clamping method figured out" }
   
   
 ];
