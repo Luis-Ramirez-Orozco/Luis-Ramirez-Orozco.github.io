@@ -15,8 +15,8 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 <div id="slide" style="display:flex; gap:20px; align-items:flex-start; max-width:700px;">
   <img id="slide-img" src="images/2.jpeg" style="width:50%; height:450px; object-fit:contain; border-radius:8px; flex-shrink:0;">  
-  <div style="flex:1;">
-    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7;"></p>
+  <div style="flex:1; background:#f7f7f5; border-radius:12px; padding:16px;">
+    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7; margin:0;"></p>
   </div>
 </div>
 <div style="margin-top:12px; display:flex; align-items:center; gap:12px;">
