@@ -27,6 +27,8 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 <script>
 const slides = [
+  { img: "images/Fidget Clicker/Concept2.jpg", caption: "The idea here was to start off easy. I needed a product with simple geometry that could help me learn the basics of both designing and manufacturing. Through crowdsourcing the idea of a mechanical keyboard fidget clicker was born. Attached are the initial dimensions taken from a keyboard switch that sacrificed its life to science." }, 
+  
   { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "First thing i had to do was dust off my hobby CNC machine. I'm using a Genmitsu 3018. The main tools i've used for this project are the 1/8 Hozly flat end mill and 1/4 Diablo flat end mill." }
 ];
 let current = 0;
