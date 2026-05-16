@@ -14,8 +14,8 @@ Learning CAM software from scratch was the steepest part of the process — tran
 ## The Process
 
 <div style="display:flex; gap:20px; align-items:center; max-width:700px; margin:0 auto;">
-  <div style="position:relative; width:50%; flex-shrink:0;">
-    <img id="slide-img" src="images/Fidget Clicker/CNC not assembled.jpg" style="width:100%; border-radius:8px; display:block;">
+  <div style="position:relative; width:50%; flex-shrink:0; height:380px;">
+    <img id="slide-img" src="images/Fidget Clicker/CNC not assembled.jpg" style="width:100%; height:100%; object-fit:contain; border-radius:8px; display:block; background:#f0f0ee;">
     <button onclick="changeSlide(-1)" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">‹</button>
     <button onclick="changeSlide(1)" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">›</button>
     <span id="slide-count" style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.25); color:rgba(255,255,255,0.8); font-size:12px; padding:3px 10px; border-radius:99px;">1 / 4</span>
