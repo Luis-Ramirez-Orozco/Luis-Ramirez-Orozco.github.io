@@ -43,8 +43,9 @@ const slides = [
   
   { img: "images/Fidget Clicker/Speeds&DOC test.JPEG", caption: "I began to test different depths of cut. I learned the machines capabilities and created solutions to problems I saw.... alot of vibration" },
 
-    { img: "images/Fidget Clicker/Gantry vibration.png", caption: "Z-axis Vibration solved with springs" }
-  
+  { img: "images/Fidget Clicker/Gantry vibration.png", caption: "Z-axis Vibration solved with springs" },
+
+  { img: "images/Fidget Clicker/Speeds&DOC test2.JPG", caption: "Runspeeds figured out" }
   
   
 ];
