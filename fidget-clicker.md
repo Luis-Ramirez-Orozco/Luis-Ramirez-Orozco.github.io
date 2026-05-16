@@ -25,8 +25,6 @@ Learning CAM software from scratch was the steepest part of the process — tran
   </div>
 </div>
 
-
-
 <script>
 const slides = [
   { img: "images/Fidget Clicker/Concept2.jpg", caption: "The idea here was to start off easy. I needed a product with simple geometry that could help me learn the basics of both designing and manufacturing. Through crowdsourcing the idea of a mechanical keyboard fidget clicker was born. Attached are the initial dimensions taken from a keyboard switch that sacrificed its life to science." },
@@ -41,7 +39,11 @@ const slides = [
   
   { img: "images/Fidget Clicker/Prototype1.png", caption: "The main issue with version 1 was that the keys would rock laterally when the buttons were pressed. As the key switch design is meant to be pressfit into the cavity the lateral movement overtime caused the buttons to dislodge and fall out. This, along with learning how to how to manage run speeds and cut depths resulted in a real rough prototype" },
   
-  { img: "images/Fidget Clicker/V3.png", caption: "The next big jump I made was at version 3. This is where I fixed the models ''pedestal'' and began to really experiment with run speeds and depths of cut (DOC)" }
+  { img: "images/Fidget Clicker/V3.png", caption: "The next big jump I made was at version 3. This is where I fixed the models ''pedestal'' and began to really experiment with run speeds and depths of cut (DOC)" },
+  
+  { img: "images/Fidget Clicker/Speeds&DOC test.JPEG", caption: "I began to test different depths of cut. I learned the machines capabilities and created solutions to problems I saw.... alot of vibration" }
+  
+  
   
 ];
 let current = 0;
