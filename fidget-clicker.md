@@ -39,7 +39,9 @@ const slides = [
 
   { img: "images/Fidget Clicker/Setup2.jpg", caption: "For my setups I'm using:\n \n•800 W spindle that maxes out at around 12K RPM. \n•OpenBuildsCONTROL to run the G code \n•Poplar"},
   
-  { img: "images/Fidget Clicker/Prototype1.png", caption: "The main issue with version 1 was that the keys would rock laterally when the buttons were pressed. As the key switch design is meant to be pressfit into the cavity the lateral movement overtime caused the buttons to dislodge and fall out. This, along with learning how to how to manage run speeds and cut depths resulted in a real rough prototype" }
+  { img: "images/Fidget Clicker/Prototype1.png", caption: "The main issue with version 1 was that the keys would rock laterally when the buttons were pressed. As the key switch design is meant to be pressfit into the cavity the lateral movement overtime caused the buttons to dislodge and fall out. This, along with learning how to how to manage run speeds and cut depths resulted in a real rough prototype" },
+  
+  { img: "images/Fidget Clicker/V3.png", caption: "The next big jump I made was at version 3. This is where I fixed the models ''pedestal'' and began to really experiment with run speeds and depths of cut (DOC)" }
   
 ];
 let current = 0;
