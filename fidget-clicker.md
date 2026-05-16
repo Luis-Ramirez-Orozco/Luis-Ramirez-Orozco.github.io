@@ -13,15 +13,15 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 ## The Process
 
-<div style="max-width:700px; margin:0 auto; text-align:center;">
-  <div style="position:relative; width:100%; flex-shrink:0;">
+<div style="display:flex; gap:20px; align-items:center; max-width:700px; margin:0 auto;">
+  <div style="position:relative; width:50%; flex-shrink:0;">
     <img id="slide-img" src="images/1.jpeg" style="width:100%; border-radius:8px; display:block;">
     <button onclick="changeSlide(-1)" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">‹</button>
     <button onclick="changeSlide(1)" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">›</button>
     <span id="slide-count" style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.25); color:rgba(255,255,255,0.8); font-size:12px; padding:3px 10px; border-radius:99px;">1 / 4</span>
   </div>
-  <div style="flex:1;">
-    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7; background:#f9f9f9; border-radius:8px; padding:16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);text-align:justify; margin-top:16px;"></p>
+  <div style="flex:1; display:flex; align-items:center;">
+    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7; background:#f9f9f9; border-radius:8px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.08); text-align:justify; margin:0;"></p>
   </div>
 </div>
 
