@@ -33,7 +33,7 @@ const slides = [
 
   { img: "images/Fidget Clicker/Concept.JPG", caption: "The idea here was to start off easy. I needed a product with simple geometry that could help me learn the basics of both designing and manufacturing. Through crowdsourcing the idea of a mechanical keyboard fidget clicker was born. Attached are the initial dimensions taken from a keyboard switch that sacrificed its life to science." },
   
-  { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "First thing I had to do was dust off my hobby CNC machine. I'm using a Genmitsu 3018. The main tools i've used for this project are: \n1) 1/8 Hozly flat end mill \n2) 1/4 Diablo flat end mill." },
+  { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "I'm using a Genmitsu 3018. The main tools i've used for this project are:\n \n1) 1/8 Hozly flat end mill \n2) 1/4 Diablo flat end mill." },
 
   { img: "images/Fidget Clicker/V1.png", caption: "Version 1.0, had two extra bores to make room for some prongs that the keyswitch has; shown is version 1.2. Documentation was not kept up and I lost the revision history associated with version 1.0. within this model there were also some anomolies in the geometery that resulted when I extruded the pockets to incorrect depths. The result was a pedestal for the keyswitch to sit on. This concept actually made it all the way to version 2.0" }, 
 
