@@ -21,13 +21,13 @@ Learning CAM software from scratch was the steepest part of the process — tran
     <span id="slide-count" style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.25); color:rgba(255,255,255,0.8); font-size:12px; padding:3px 10px; border-radius:99px;">1 / 4</span>
   </div>
   <div style="flex:1;">
-    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7;"></p>
+    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7; background:#f9f9f9; border-radius:8px; padding:16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);text-align:justify;"></p>
   </div>
 </div>
 
 <script>
 const slides = [
-  { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "First thing i had to do was dust off my hobby CNC machine." }
+  { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "First thing i had to do was dust off my hobby CNC machine. I'm using a Genmitsu 3018. The main tools i've used for this project are the 1/8 Hozly flat end mill and 1/4 Diablo flat end mill." }
 ];
 let current = 0;
 function changeSlide(dir) {
