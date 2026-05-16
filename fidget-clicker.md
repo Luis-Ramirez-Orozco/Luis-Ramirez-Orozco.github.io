@@ -14,7 +14,7 @@ Learning CAM software from scratch was the steepest part of the process — tran
 ## The Process
 
 <div id="slide" style="display:flex; gap:20px; align-items:flex-start; max-width:700px;">
-  <img id="slide-img" src="IMG_2671.jpeg" style="width:50%; border-radius:8px; flex-shrink:0;">  
+  <img id="slide-img" src="images/2.jpeg" style="width:50%; border-radius:8px; flex-shrink:0;">  
   <div style="flex:1;">
     <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7;"></p>
   </div>
@@ -27,10 +27,10 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 <script>
 const slides = [
-  { img: "IMG_2671.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "IMG_2678.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "IMG_2680.jpeg", caption: "Write your paragraph for this photo here." },
-  { img: "IMG_2705.jpeg", caption: "Write your paragraph for this photo here." }
+  { img: "images/2.jpeg", caption: "Write your paragraph for this photo here." },
+  { img: "images/3.jpeg", caption: "Write your paragraph for this photo here." },
+  { img: "images/4.jpeg", caption: "Write your paragraph for this photo here." },
+  { img: "images/5.jpeg", caption: "Write your paragraph for this photo here." }
 ];
 let current = 0;
 function changeSlide(dir) {
