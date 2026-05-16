@@ -37,6 +37,8 @@ const slides = [
 
   { img: "images/Fidget Clicker/V1.png", caption: "Version 1.0, had two extra bores to make room for some prongs that the keyswitch has; shown is version 1.2. Documentation was not kept up and I lost the revision history associated with version 1.0. within this model there were also some anomolies in the geometery that resulted when I extruded the pockets to incorrect depths. The result was a pedestal for the keyswitch to sit on. This concept actually made it all the way to version 2.0" }, 
 
+  { img: "images/Fidget Clicker/Setup2.jpg", caption: "For my setups I'm using:\n \n•800 W spindle that maxes out at around 12K RPM. \n•OpenBuildsCONTROL to run the G code \n•Poplar"},
+  
   { img: "images/Fidget Clicker/Prototype1.png", caption: "The main issue with version 1 was that the keys would rock laterally when the buttons were pressed. As the key switch design is meant to be pressfit into the cavity the lateral movement overtime caused the buttons to dislodge and fall out. This, along with learning how to how to manage run speeds and cut depths resulted in a real rough prototype" }
   
 ];
