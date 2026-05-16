@@ -13,16 +13,16 @@ Learning CAM software from scratch was the steepest part of the process — tran
 
 ## The Process
 
-<div id="slide" style="display:flex; gap:20px; align-items:flex-start; max-width:700px;">
-  <img id="slide-img" src="images/2.jpeg" style="width:50%; height:450px; object-fit:contain; border-radius:8px; flex-shrink:0;">  
-  <div style="flex:1; background:#f7f7f5; border-radius:12px; padding:16px;">
-    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7; margin:0;"></p>
+<div style="display:flex; gap:20px; align-items:flex-start; max-width:700px;">
+  <div style="position:relative; width:50%; flex-shrink:0;">
+    <img id="slide-img" src="images/1.jpeg" style="width:100%; border-radius:8px; display:block;">
+    <button onclick="changeSlide(-1)" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">‹</button>
+    <button onclick="changeSlide(1)" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; border-radius:50%; width:36px; height:36px; font-size:18px; cursor:pointer;">›</button>
+    <span id="slide-count" style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.25); color:rgba(255,255,255,0.8); font-size:12px; padding:3px 10px; border-radius:99px;">1 / 4</span>
   </div>
-</div>
-<div style="margin-top:12px; display:flex; align-items:center; gap:12px;">
-  <button onclick="changeSlide(-1)" style="padding:8px 20px; cursor:pointer;">← Prev</button>
-  <span id="slide-count">1 / 4</span>
-  <button onclick="changeSlide(1)" style="padding:8px 20px; cursor:pointer;">Next →</button>
+  <div style="flex:1;">
+    <p id="slide-caption" style="color:#444; font-size:15px; line-height:1.7;"></p>
+  </div>
 </div>
 
 <script>
