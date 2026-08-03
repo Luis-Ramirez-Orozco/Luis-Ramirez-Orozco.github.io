@@ -29,26 +29,6 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 const slides = [
   { img: "images/Pool Table/Bench Made Clicks-27.jpg", caption: "What I wanted to make was a pool table. The Design had to incorporate the following:\n \n• Wood \n• Metal \n•Fasteners" },
 
-  { img: "images/Fidget Clicker/Concept.JPG", caption: "The idea here was to start off easy. I needed a product with simple geometry that could help me learn the basics of both designing and manufacturing. Through crowdsourcing the idea of a mechanical keyboard fidget clicker was born. Attached are the initial dimensions taken from a keyboard switch that sacrificed its life to science." },
-  
-  { img: "images/Fidget Clicker/CNC not assembled.jpg", caption: "I'm using a Genmitsu 3018. The main tools i've used for this project are:\n \n1) 1/8 Hozly flat end mill \n2) 1/4 Diablo flat end mill." },
-
-  { img: "images/Fidget Clicker/V1.png", caption: "Version 1.0, had two extra bores to make room for some prongs that the keyswitch has; shown is version 1.2. Documentation was not kept up and I lost the revision history associated with version 1.0. within this model there were also some anomolies in the geometery that resulted when I extruded the pockets to incorrect depths. The result was a pedestal for the keyswitch to sit on. This concept actually made it all the way to version 2.0" }, 
-
-  { img: "images/Fidget Clicker/Setup2.jpg", caption: "For my setups I'm using:\n \n•800 W spindle that maxes out at around 12K RPM. \n•OpenBuildsCONTROL to run the G code \n•Poplar"},
-  
-  { img: "images/Fidget Clicker/Prototype1.png", caption: "The main issue with version 1 was that the keys would rock laterally when the buttons were pressed. As the key switch design is meant to be pressfit into the cavity the lateral movement overtime caused the buttons to dislodge and fall out. This, along with learning how to how to manage run speeds and cut depths resulted in a real rough prototype" },
-  
-  { img: "images/Fidget Clicker/V3.png", caption: "The next big jump I made was at version 3. This is where I fixed the models ''pedestal'' and began to really experiment with run speeds and depths of cut (DOC)" },
-  
-  { img: "images/Fidget Clicker/Speeds&DOC test.JPEG", caption: "I began to test different depths of cut. I learned the machines capabilities and created solutions to problems I saw.... alot of vibration" },
-
-  { img: "images/Fidget Clicker/Gantry vibration.png", caption: "Z-axis Vibration solved with springs" },
-
-  { img: "images/Fidget Clicker/Speeds&DOC test2.JPG", caption: "Runspeeds figured out" },
-
-  { img: "images/Fidget Clicker/Tape method.png", caption: "Clamping method figured out" }
-  
   
 ];
 let current = 0;
