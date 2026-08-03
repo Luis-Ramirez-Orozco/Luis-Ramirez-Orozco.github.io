@@ -38,7 +38,9 @@ const slides = [
 
   { img: "images/Pool Table/0.250 Ball end mill.jpg", caption: "Tooling became much more important than it was with previous projects. Working with aluminum meant I had to learn and consider the materials thermal properties when running operations. Running tools at too high of an RPM and too slow of a cutting speed and the material will essentially melt while cutting, and weld itself onto the cutting tool. If you use a tool with too many flutes chips may not evacuate the cutting area increasing material cutting/re-cutting and in effect increase heat and welding risk. for this reason I've included a list of tools used and how they were used below."},
 
-  { img:"images/Pool Table/tap and die set.jpg", caption:"Tapping material for M4x0.7 bolts to fasten wood to aluminum"}
+  { img:"images/Pool Table/tap and die set.jpg", caption:"Tapping material for M4x0.7 bolts to fasten wood to aluminum"},
+
+  { img:"images/Pool Table/legs.jpg", caption:"Machining the Maple was relatively simple compared to the aluminum. the main thing was that it has a tendency to burn. slower RPM and higher cutting feeds reduces the problem"}
 ];
   
 let current = 0;
