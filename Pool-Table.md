@@ -25,10 +25,13 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
   </div>
 </div>
 
+
+
 <script>
 const slides = [
-  { img: "images/Pool Table/Bench Made Clicks-27.jpg", caption: "What I wanted to make was a pool table. The Design had to incorporate the following:\n \n• Wood \n• Metal \n•Fasteners" },
+  { img: "images/Pool Table/Bench Made Clicks-27.jpg", caption: "What I wanted to make was a pool table. The Design had to incorporate the following:\n \n• Wood \n• Metal \n• Fasteners" },
 
+  { img: "images/Pool Table/IMG_3522.jpg", caption: "For my metallic material, I chose 6061 Aluminum. it's an easier metal to machine due to its low hardness. Machining this however still required plenty of trials." }
   
 ];
 let current = 0;
