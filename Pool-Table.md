@@ -9,7 +9,7 @@ title: Pool Table
 I wanted make something that required working with multiple materials. As well as introduce fasteners into the design.
 
 ## Challenge
-The steepest learning curve here was learning to machine Aluminum. I purchased 6061 Aluminum bars 4" x 2" x 1" as this is an upper bound of the machine I'm running (Temper Unknown, Amazon Seller did not include this detail). 
+The steepest learning curve here was learning to machine Aluminum. I purchased 6061 Aluminum bars 4" x 2" x 1" as this is within the bounds of the machine I'm running (Temper Unknown, Amazon Seller did not include this detail, likely T6). 
 
 ## The Process
 
@@ -29,11 +29,13 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 
 <script>
 const slides = [
-  { img: "images/Pool Table/Bench Made Clicks-27.jpg", caption: "What I wanted to make was a pool table. The Design had to incorporate the following:\n \n• Wood \n• Metal \n• Fasteners" },
+  { img: "images/Pool Table/Bench Made Clicks-27.jpg", caption: "What I wanted to make was a pool table. The design had to incorporate the following:\n \n• Wood \n• Metal \n• Fasteners" },
 
-  { img: "images/Pool Table/IMG_3522.jpg", caption: "For my metallic material, I chose 6061 Aluminum. it's an easier metal to machine due to its low hardness. Machining this however still required plenty of trials." }
-  
+  { img: "images/Pool Table/IMG_3522.jpg", caption: "For my metallic material, I chose 6061 Aluminum. it's an easier metal to machine due to its hardness, 95 HB, compared to other materials like 1018 Mild Steel ~126 HB or annealed 17-4PH stainless steel <363 HB. Machining this however still required plenty of trials." },
+
+  { img: "images/Pool Table/IMG_0028.jpg", caption: "The wood I chose to work with was Maple.\n \nI had already worked with Poplar, a very soft Hardwood ~540 lbf Janka Hardness. So, I decided to try out some Maple, which has a Janka Hardness of ~ 1400 lbf. The benefit of this material is that it looks nice, when stained" } 
 ];
+  
 let current = 0;
 function changeSlide(dir) {
   current = (current + dir + slides.length) % slides.length;
