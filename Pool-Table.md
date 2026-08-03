@@ -25,7 +25,7 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
   </div>
 </div>
 
-
+images/Pool Table/IMG_3523.jpg
 
 <script>
 const slides = [
@@ -33,7 +33,9 @@ const slides = [
 
   { img: "images/Pool Table/IMG_3522.jpg", caption: "For my metallic material, I chose 6061 Aluminum. it's an easier metal to machine due to its hardness, 95 HB, compared to other materials like 1018 Mild Steel ~126 HB or annealed 17-4PH stainless steel <363 HB. Machining this however still required plenty of trials." },
 
-  { img: "images/Pool Table/IMG_0028.jpg", caption: "The wood I chose to work with was Maple.\n \nI had already worked with Poplar, a very soft Hardwood ~540 lbf Janka Hardness. So, I decided to try out some Maple, which has a Janka Hardness of ~ 1400 lbf. The benefit of this material is that it looks nice, when stained" } 
+  { img: "images/Pool Table/IMG_0028.jpg", caption: "The wood I chose to work with was Maple.\n \nI had already worked with Poplar, a very soft Hardwood ~540 lbf Janka Hardness. So, I decided to try out some Maple, which has a Janka Hardness of ~ 1400 lbf. The benefit of this material is that it looks nice, when stained" },
+
+  { img: "images/Pool Table/IMG_3523.jpg", caption: "The machining process took time to develop, about 4 different iterations and 48 different programs to achieve the final version. Most of the work revolved around the aluminum pool table."}
 ];
   
 let current = 0;
