@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Fidget Clicker
+title: Pool Table
 ---
 
-# Fidget Clicker
+# Pool Table Assembly
 
 ## Purpose
-A hands-on project to experience the full product development cycle — from initial concept through design, iteration, and final manufactured product.
+I wanted make something that required working with multiple materials. As well as introduce fasteners into the design.
 
-## Challenges
-Learning CAM software from scratch was the steepest part of the process — translating a design into machine-ready toolpaths required understanding both the software and the manufacturing constraints at the same time.
+## Challenge
+The steepest learning curve here was learning to machine Aluminum. I purchased 6061 Aluminum bars 4" x 2" x 1" as this is an upper bound of the machine I'm running (Temper Unknown, Amazon Seller did not include this detail). 
 
 ## The Process
 
