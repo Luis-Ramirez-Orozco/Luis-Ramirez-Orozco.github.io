@@ -23,3 +23,7 @@ I'm an engineer who builds things — from concept to final product.
   </div>
 
 </div>
+
+## Socials
+
+[![TikTok](https://img.shields.io/badge/TikTok-@benchmadeclicks-black?logo=tiktok)](https://www.tiktok.com/@benchmadeclicks)
