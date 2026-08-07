@@ -6,7 +6,7 @@ title: Pool Table
 # Pool Table Assembly
 
 ## Purpose
-I wanted make something that required working with multiple materials. As well as introduce fasteners into the design.
+I wanted make something that required working with multiple materials. As well as introduce fasteners into the design. jijijijiji
 
 ## Challenge
 The steepest learning curve here was learning to machine Aluminum. I purchased 6061 Aluminum bars 4" x 2" x 1" as this is within the bounds of the machine I'm running (Temper Unknown, Amazon Seller did not include this detail, likely T6). 
