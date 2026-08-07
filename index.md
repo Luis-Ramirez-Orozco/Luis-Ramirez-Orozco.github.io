@@ -2,8 +2,8 @@
 layout: home
 title: Luis Ramirez Orozco - contactramirezl@gmail.com - Los Angeles, CA
 ---
-<h1 style="border:10pc solid black; align-text: center">Luis Ramirez Orozco</h1>
-<h3 style="align-text:center">contactramirezl@gmail.com • Los Angeles, CA</h3>
+<h1 style="border:10px solid black; text-align: center">Luis Ramirez Orozco</h1>
+<h3 style="text-align:center">contactramirezl@gmail.com • Los Angeles, CA</h3>
 
 I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
 
