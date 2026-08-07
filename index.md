@@ -8,8 +8,8 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 ## Projects
 <div style="display:flex; flex-wrap:wrap; gap:20px;">
 
-  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; background: radial-gradient(ellipse at center, #f5f5f5 0%, #c9c9c9 100%);">
-    <h3 style="margin:0 0 8px; text-align:center; color:yellow; font-family:Trebuchet MS; font-size: 20px; border:1px">Fidget Clicker</h3>
+  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 100%);">
+    <h3 style="margin:0 0 8px; text-align:center; color:#1a1a1a; font-family:Trebuchet MS; font-size: 40px; border:1px">Fidget Clicker</h3>
     <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
     <p style="color:#666; margin:0 0 12px">A fidget toy, designed journey.</p>
     <a href="/fidget-clicker">View project →</a>
