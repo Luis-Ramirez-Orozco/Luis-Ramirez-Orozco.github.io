@@ -22,7 +22,7 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
     <h3 style="margin:0 0 2px; text-align: center; Color:white; font-family:Trebuchet MS; font-size:30px">Pool Table</h3>
     <p style="color:white; margin:0 0 4px; font-style:italic; text-align:center">Pool table design made from aluminum and maple.</p>
     <div style="display:flex; Justify-content:center; gap:16px; margin-bottom: 20px;">
-      <a href="/Pool-Table" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold; gap:16px; margin-bottom:20px">View project</a>
+      <a href="/Pool-Table" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold">View project</a>
       <a href="https://www.etsy.com/listing/4550748187/mini-billiards-table-machined-desk" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
     </div>
     <img src="images/Pool Table/IMG_3552 2.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
