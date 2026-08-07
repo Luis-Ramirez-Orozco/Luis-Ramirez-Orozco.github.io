@@ -8,7 +8,7 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 ## Projects
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px">
 
-  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
+  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
     <h3 style="margin:0 0 2px; text-align:center; color:white; font-family:Trebuchet MS; font-size: 30px">Fidget Clicker</h3>
     <p style="color:#666; margin:0 0 4px; font-style:italic; text-align:center;">A fidget toy, design journey.</p>
     <div style="display:flex; Justify-content:center; gap:16px; margin-bottom: 20px">
@@ -18,7 +18,7 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
     <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
 
-  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px;">
+  <div style="border:1px solid #ddd; border-radius:8px; padding:20px">
     <h3 style="margin:0 0 8px">Pool Table</h3>
     <img src="images/Pool Table/IMG_3552 2.JPG" style="width:100%; height:200px; object-fit:cover; object-position: center top; border-radius:6px; margin-bottom:12px;">
     <p style="color:#666; margin:0 0 12px">Pool table design made from aluminum and maple.</p>
