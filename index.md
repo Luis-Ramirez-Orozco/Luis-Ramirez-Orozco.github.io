@@ -30,8 +30,9 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 
 </div>
 
-## Certifications
+## Education
 
+BS - Mechanical Engineering: California State University, Los Angeles - 2024
 <a href="https://account.ncees.org/rn/2401863-1788207-d83273b" target="_blank" rel="noopener noreferrer">FE Examination </a>
 
 ## Socials
