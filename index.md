@@ -26,7 +26,7 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 
 ## Certifications
 
-<a href="https://account.ncees.org/rn/2401863-1788207-d83273b">FE Examination </a>
+<a href="https://account.ncees.org/rn/2401863-1788207-d83273b" target="_blank" rel="noopener noreferrer">FE Examination </a>
 
 ## Socials
 
