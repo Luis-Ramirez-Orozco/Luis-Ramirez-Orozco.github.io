@@ -30,4 +30,6 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 
 ## Socials
 
-[![TikTok](https://img.shields.io/badge/TikTok-@benchmadeclicks-black?logo=tiktok)](https://www.tiktok.com/@benchmadeclicks)
+<a href="https://www.tiktok.com/@benchmadeclicks" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/TikTok-@benchmadeclicks-black?logo=tiktok" alt="TikTok">
+</a>
