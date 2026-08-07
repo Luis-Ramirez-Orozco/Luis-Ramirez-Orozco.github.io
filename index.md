@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Luis Ramirez Orozco
+title: Luis Ramirez Orozco - contactramirezl@gmail.com - Los Angeles, CA
 ---
 
 I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
