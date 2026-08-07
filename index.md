@@ -8,9 +8,9 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 ## Projects
 <div style="display:flex; flex-wrap:wrap; gap:20px;">
 
-  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; color: blue">
-    <h3 style="margin:0 0 8px; text-align:center; color:blue; font-family:Trebuchet MS; font-size: 20px">Fidget Clicker</h3>
-    <img src="images/Fidget Clicker/Clicker.png" style="width:100%; border-radius:6px; margin-bottom:12px;">
+  <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; background-color:rgb(180,182,179)">
+    <h3 style="margin:0 0 8px; text-align:center; color:yellow; font-family:Trebuchet MS; font-size: 20px; border:1px">Fidget Clicker</h3>
+    <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
     <p style="color:#666; margin:0 0 12px">A fidget toy, designed journey.</p>
     <a href="/fidget-clicker">View project →</a>
   </div>
