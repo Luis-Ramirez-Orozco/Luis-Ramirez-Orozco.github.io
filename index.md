@@ -10,9 +10,11 @@ I'd like to show you some of the projects I've worked on. Below Click on the pro
 
   <div style="border:1px solid #ddd; border-radius:8px; padding:20px; max-width:300px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
     <h3 style="margin:0 0 4px; text-align:center; color:white; font-family:Trebuchet MS; font-size: 30px">Fidget Clicker</h3>
-    <p style="color:#666; margin:0 0 4px; font-family:italic">A fidget toy, design journey.</p>
-    <a href="/fidget-clicker" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 5px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">View project</a>
-    <a href="[/fidget-clicker](https://www.etsy.com/listing/4518203256/neked-mechanical-clicker?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_3&frs=1&logging_key=f66b6f3a3a7559a2b54c3b4bc2c48bc4ebeb469f%3A4518203256)" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 5px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
+    <p style="color:#666; margin:0 0 4px; font-family:italic; text-align:center;">A fidget toy, design journey.</p>
+    <div style="display:flex; Justify-content:center; gap:16px;">
+      <a href="/fidget-clicker" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">View project</a>
+      <a href="[/fidget-clicker](https://www.etsy.com/listing/4518203256/neked-mechanical-clicker?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_3&frs=1&logging_key=f66b6f3a3a7559a2b54c3b4bc2c48bc4ebeb469f%3A4518203256)" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
+    </div>
     <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
 
