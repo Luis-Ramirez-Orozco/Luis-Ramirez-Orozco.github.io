@@ -3,7 +3,7 @@ layout: home
 title: Luis Ramirez Orozco
 ---
 
-I'm an engineer who builds things — from concept to final product.
+I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
 
 ## Projects
 <div style="display:flex; flex-wrap:wrap; gap:20px;">
@@ -23,6 +23,10 @@ I'm an engineer who builds things — from concept to final product.
   </div>
 
 </div>
+
+## Certifications
+
+<a href="https://account.ncees.org/rn/2401863-1788207-d83273b">FE Examination </a>
 
 ## Socials
 
