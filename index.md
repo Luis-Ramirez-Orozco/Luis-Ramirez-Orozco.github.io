@@ -2,14 +2,14 @@
 layout: home
 title: Luis Ramirez Orozco - contactramirezl@gmail.com - Los Angeles, CA
 ---
-<div style="border:5px solid black">
+<div>
 <h1 style="text-align: center">Luis Ramirez Orozco</h1>
 <h3 style="text-align:center">
   <a href="mailto:contactramirezl@gmail.com">contactramirezl@gmail.com</a>
-  • Los Angeles, CA</h3>
+  • Los Angeles, CA • EIT #184349 </h3>
 </div>
 
-I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
+<br>I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
 
 ## Projects
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px">
