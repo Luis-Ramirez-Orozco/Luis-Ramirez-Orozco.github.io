@@ -1,0 +1,22 @@
+{% assign carousel_images = include.images | split: "|" %}
+<div style="display:flex; gap:16px; align-items:flex-start; max-width:900px; margin:24px auto;">
+
+  <div style="display:flex; flex-direction:column; gap:10px; max-height:480px; overflow-y:auto; padding:4px;">
+    {% for img in carousel_images %}
+    <img src="{{ include.folder }}/{{ img }}"
+         class="{{ include.id }}-thumb"
+         onclick="
+           document.getElementById('{{ include.id }}-main').src = this.src;
+           document.querySelectorAll('.{{ include.id }}-thumb').forEach(function(t){ t.style.borderColor = 'transparent'; });
+           this.style.borderColor = '#3b5bdb';
+         "
+         style="width:64px; height:64px; object-fit:cover; border-radius:8px; cursor:pointer;
+                border:3px solid {% if forloop.first %}#3b5bdb{% else %}transparent{% endif %};">
+    {% endfor %}
+  </div>
+
+  <div style="flex:1; border-radius:16px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.15);">
+    <img id="{{ include.id }}-main" src="{{ include.folder }}/{{ carousel_images[0] }}" style="width:100%; display:block;">
+  </div>
+
+</div>
