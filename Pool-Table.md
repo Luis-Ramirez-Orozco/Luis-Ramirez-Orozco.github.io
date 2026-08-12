@@ -4,7 +4,7 @@ title: Pool Table
 ---
 <div>
 {% include header.html %}
-<h1 style="align-text:center">Pool Table Assembly</h1>
+<h1 style="text-align:center">Pool Table Assembly</h1>
 </div>  
 
 ## Purpose
