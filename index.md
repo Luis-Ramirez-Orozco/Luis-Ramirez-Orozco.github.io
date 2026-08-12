@@ -3,10 +3,10 @@ layout: home
 title: Luis Ramirez Orozco
 ---
 
-{% include header.html %}
 <div>
-<h1 style="text-align: center">Luis Ramirez Orozco</h1>
-<h3 style="text-align:center">
+  {% include header.html %}
+  <h1 style="text-align: center">Luis Ramirez Orozco</h1>
+  <h3 style="text-align:center">
   <a href="mailto:contactramirezl@gmail.com">contactramirezl@gmail.com</a>
   • Los Angeles, CA • EIT #184349 </h3>
 </div>
