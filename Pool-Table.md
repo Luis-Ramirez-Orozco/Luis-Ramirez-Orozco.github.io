@@ -15,7 +15,7 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 
 ## The Process
 
-{% include carousel.html id="pool" folder="/images/Pool Table" images="IMG_1.jpeg|IMG_2.jpeg|IMG_3.jpeg|IMG_4.jpeg|IMG_5.jpeg|IMG_6.jpeg|IMG_7.jpeg|IMG_8.jpeg|IMG_9.jpeg|IMG_10.jpeg|IMG_11.jpeg|IMG_12.jpeg|IMG_13.jpeg|IMG_14.jpeg|IMG_15.jpeg|MOV_1.MOV" %}
+{% include carousel.html id="pool" folder="/images/Pool Table" images="IMG_1.jpeg|IMG_2.jpeg|IMG_3.jpeg|IMG_4.jpeg|IMG_5.jpeg|IMG_6.jpg|IMG_7.jpeg|IMG_8.jpeg|IMG_9.jpeg|IMG_10.jpeg|IMG_11.jpeg|IMG_12.jpeg|IMG_13.jpeg|IMG_14.jpeg|IMG_15.jpeg|MOV_1.MOV" %}
 
 ## Socials
 
