@@ -38,7 +38,8 @@
     return videoExts.indexOf(ext) !== -1;
   }
 
-  function jumpCarousel(id, index) {
+function jumpCarousel(id, index) {
+    var scrollY = window.scrollY;
     var state = window.carouselState[id];
     state.index = index;
     var file = state.images[index];
@@ -51,6 +52,12 @@
       videoEl.src = state.folder + "/" + file;
       videoEl.style.display = "block";
       imgEl.style.display = "none";
+
+      var restoreScroll = function () {
+        window.scrollTo(0, scrollY);
+        videoEl.removeEventListener("loadedmetadata", restoreScroll);
+      };
+      videoEl.addEventListener("loadedmetadata", restoreScroll);
     } else {
       imgEl.src = state.folder + "/" + file;
       imgEl.style.display = "block";
@@ -62,6 +69,8 @@
       dot.style.width = (i === index) ? "28px" : "8px";
       dot.style.background = (i === index) ? "#3b5bdb" : "#ccc";
     });
+
+    window.scrollTo(0, scrollY);
   }
 
   function moveCarousel(id, direction) {
