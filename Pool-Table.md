@@ -2,7 +2,7 @@
 layout: page
 title: Pool Table
 ---
-
+{% include header.html %}
 # Pool Table Assembly
 
 ## Purpose
