@@ -1,7 +1,9 @@
 ---
 layout: home
-title: Luis Ramirez Orozco - contactramirezl@gmail.com - Los Angeles, CA
+title: Luis Ramirez Orozco
 ---
+
+{% include header.html %}
 <div>
 <h1 style="text-align: center">Luis Ramirez Orozco</h1>
 <h3 style="text-align:center">
