@@ -2,7 +2,7 @@
 layout: page
 title: Fidget Clicker
 ---
-
+{% include header.html %}
 # Fidget Clicker
 
 ## Purpose
