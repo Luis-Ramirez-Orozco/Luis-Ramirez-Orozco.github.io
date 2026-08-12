@@ -15,7 +15,7 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 
 ## The Process
 
-{% include carousel.html id="pool" folder="/images/Pool Table" images="Bench Made Clicks-27.jpg|IMG_TEST.jpeg|IMG_TEST.jpeg|IMG_3552 2.JPG|IMG_0028.jpg|IMG_3523.jpg" %}
+{% include carousel.html id="pool" folder="/images/Pool Table" images="Bench Made Clicks-27.jpg|IMG_TEST.jpeg|IMG_TEST2.jpeg|IMG_3552 2.JPG|IMG_0028.jpg|IMG_3523.jpg" %}
 
 <div style="display:flex; gap:20px; align-items:center; max-width:700px; margin:0 auto;">
   <div style="position:relative; width:50%; flex-shrink:0; height:380px;">
