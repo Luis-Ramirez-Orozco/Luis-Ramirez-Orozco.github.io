@@ -2,8 +2,10 @@
 layout: page
 title: Pool Table
 ---
+<div>
 {% include header.html %}
 # Pool Table Assembly
+</div>  
 
 ## Purpose
 I wanted make something that required working with multiple materials. As well as introduce fasteners into the design. jijijijiji
