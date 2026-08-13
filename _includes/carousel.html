@@ -4,7 +4,7 @@
   <div style="position:relative; border-radius:16px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.15); background:#f0f0f0;">
     <img id="{{ include.id }}-main" src="{{ include.folder }}/{{ carousel_images[0] }}"
          style="width:100%; max-height:600px; object-fit:contain; display:block;">
-    <video id="{{ include.id }}-video" controls playsinline
+    <video id="{{ include.id }}-video" controls playsinline muted
            style="width:100%; max-height:600px; object-fit:contain; display:none; background:#000;"></video>
 
     <button onclick="moveCarousel('{{ include.id }}', -1)" aria-label="Previous item"
@@ -58,6 +58,8 @@ function jumpCarousel(id, index) {
         videoEl.removeEventListener("loadedmetadata", restoreScroll);
       };
       videoEl.addEventListener("loadedmetadata", restoreScroll);
+      videoEl.play().catch(function(){
+      });
     } else {
       imgEl.src = state.folder + "/" + file;
       imgEl.style.display = "block";
