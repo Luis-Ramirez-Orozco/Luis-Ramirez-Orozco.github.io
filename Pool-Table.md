@@ -19,7 +19,7 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 
 descriptions="The design objective is to create an accessory that requires assembly. The challenge was to learn the challenges that come with fitting at least two components.
 
-For the table base I chose to work with Maple. This hardwood is more challenging to work with than Poplar that I was using for Project #1  | 
+For the table base I chose to work with Maple. This hardwood is more challenging to work with than Poplar that I was using for Project #1.  | 
 
 The table top will be made of 6061 T6 Aluminum. This is my first time working with a soft metal. The biggest challenge will be manufacturing, second will be meeting design parameters. | 
 
