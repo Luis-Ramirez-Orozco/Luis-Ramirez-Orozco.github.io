@@ -1,26 +1,37 @@
 {% assign carousel_images = include.images | split: "|" %}
-<div id="{{ include.id }}-carousel" style="max-width:900px; margin:24px auto;">
+{% assign carousel_descriptions = include.descriptions | split: "|" %}
+<div id="{{ include.id }}-carousel" style="display:flex; flex-wrap:wrap; gap:24px; max-width:1260px; margin:24px auto; align-items:flex-start;">
 
-  <div style="position:relative; border-radius:16px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.15); background:#f0f0f0;">
-    <img id="{{ include.id }}-main" src="{{ include.folder }}/{{ carousel_images[0] }}"
-         style="width:100%; max-height:600px; object-fit:contain; display:block;">
-    <video id="{{ include.id }}-video" controls playsinline muted
-           style="width:100%; max-height:600px; object-fit:contain; display:none; background:#000;"></video>
+  <div style="flex:0 1 900px; max-width:900px; min-width:280px;">
 
-    <button onclick="moveCarousel('{{ include.id }}', -1)" aria-label="Previous item"
-      style="position:absolute; top:50%; left:12px; transform:translateY(-50%); width:40px; height:40px; border:none; border-radius:50%; background:rgba(0,0,0,0.5); color:white; font-size:20px; cursor:pointer;">‹</button>
-    <button onclick="moveCarousel('{{ include.id }}', 1)" aria-label="Next item"
-      style="position:absolute; top:50%; right:12px; transform:translateY(-50%); width:40px; height:40px; border:none; border-radius:50%; background:rgba(0,0,0,0.5); color:white; font-size:20px; cursor:pointer;">›</button>
+    <div style="position:relative; border-radius:16px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.15); background:#f0f0f0;">
+      <img id="{{ include.id }}-main" src="{{ include.folder }}/{{ carousel_images[0] }}"
+           style="width:100%; max-height:600px; object-fit:contain; display:block;">
+      <video id="{{ include.id }}-video" controls playsinline muted
+             style="width:100%; max-height:600px; object-fit:contain; display:none; background:#000;"></video>
+
+      <button onclick="moveCarousel('{{ include.id }}', -1)" aria-label="Previous item"
+        style="position:absolute; top:50%; left:12px; transform:translateY(-50%); width:40px; height:40px; border:none; border-radius:50%; background:rgba(0,0,0,0.5); color:white; font-size:20px; cursor:pointer;">‹</button>
+      <button onclick="moveCarousel('{{ include.id }}', 1)" aria-label="Next item"
+        style="position:absolute; top:50%; right:12px; transform:translateY(-50%); width:40px; height:40px; border:none; border-radius:50%; background:rgba(0,0,0,0.5); color:white; font-size:20px; cursor:pointer;">›</button>
+    </div>
+
+    <div style="display:flex; justify-content:center; align-items:center; gap:8px; margin-top:16px;">
+      {% for img in carousel_images %}
+      <button class="{{ include.id }}-dot" onclick="jumpCarousel('{{ include.id }}', {{ forloop.index0 }})"
+        aria-label="Go to item {{ forloop.index }}"
+        style="height:8px; width:{% if forloop.first %}28px{% else %}8px{% endif %}; border-radius:999px; border:none; padding:0; cursor:pointer;
+               background:{% if forloop.first %}#3b5bdb{% else %}#ccc{% endif %}; transition: width 0.25s ease, background 0.25s ease;"></button>
+      {% endfor %}
+    </div>
+
   </div>
 
-  <div style="display:flex; justify-content:center; align-items:center; gap:8px; margin-top:16px;">
-    {% for img in carousel_images %}
-    <button class="{{ include.id }}-dot" onclick="jumpCarousel('{{ include.id }}', {{ forloop.index0 }})"
-      aria-label="Go to item {{ forloop.index }}"
-      style="height:8px; width:{% if forloop.first %}28px{% else %}8px{% endif %}; border-radius:999px; border:none; padding:0; cursor:pointer;
-             background:{% if forloop.first %}#3b5bdb{% else %}#ccc{% endif %}; transition: width 0.25s ease, background 0.25s ease;"></button>
-    {% endfor %}
+  {% if include.descriptions %}
+  <div style="flex:1 1 240px; min-width:220px; padding-top:8px;">
+    <p id="{{ include.id }}-caption" style="font-size:16px; line-height:1.6; color:#333; margin:0;">{{ carousel_descriptions[0] }}</p>
   </div>
+  {% endif %}
 
 </div>
 
@@ -28,6 +39,7 @@
   window.carouselState = window.carouselState || {};
   window.carouselState["{{ include.id }}"] = {
     images: {{ carousel_images | jsonify }},
+    descriptions: {{ carousel_descriptions | jsonify }},
     folder: "{{ include.folder }}",
     index: 0
   };
@@ -38,13 +50,14 @@
     return videoExts.indexOf(ext) !== -1;
   }
 
-function jumpCarousel(id, index) {
+  function jumpCarousel(id, index) {
     var scrollY = window.scrollY;
     var state = window.carouselState[id];
     state.index = index;
     var file = state.images[index];
     var imgEl = document.getElementById(id + "-main");
     var videoEl = document.getElementById(id + "-video");
+    var captionEl = document.getElementById(id + "-caption");
 
     videoEl.pause();
 
@@ -58,13 +71,16 @@ function jumpCarousel(id, index) {
         videoEl.removeEventListener("loadedmetadata", restoreScroll);
       };
       videoEl.addEventListener("loadedmetadata", restoreScroll);
-      videoEl.play().catch(function(){
-      });
+      videoEl.play().catch(function () {});
     } else {
       imgEl.src = state.folder + "/" + file;
       imgEl.style.display = "block";
       videoEl.style.display = "none";
       videoEl.removeAttribute("src");
+    }
+
+    if (captionEl && state.descriptions && state.descriptions[index] !== undefined) {
+      captionEl.textContent = state.descriptions[index];
     }
 
     document.querySelectorAll("." + id + "-dot").forEach(function (dot, i) {
