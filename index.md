@@ -14,17 +14,6 @@ title: Luis Ramirez Orozco
 <br>I'd like to show you some of the projects I've worked on. Below Click on the project link to take a journey through each part.
 
 ## Projects
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px">
-
-  <div style="border:1px solid #ddd; border-radius:20px; padding:20px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
-    <h3 style="margin:0 0 2px; text-align:center; color:white; font-family:Trebuchet MS; font-size: 30px">Fidget Clicker</h3>
-    <p style="color:#666; margin:0 0 4px; font-style:italic; text-align:center;">A fidget toy, design journey.</p>
-    <div style="display:flex; Justify-content:center; gap:16px; margin-bottom: 20px;">
-      <a href="/fidget-clicker" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">View project</a>
-      <a href="https://www.etsy.com/listing/4518203256/neked-mechanical-clicker" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
-    </div>
-    <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
-  </div>
 
   <div style="border:1px solid #ddd; border-radius:20px; padding:20px; background-color: black">
     <h3 style="margin:0 0 2px; text-align: center; Color:white; font-family:Trebuchet MS; font-size:30px">Pool Table</h3>
@@ -35,8 +24,18 @@ title: Luis Ramirez Orozco
     </div>
     <img src="images/Pool Table/IMG_16.jpeg" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
-
 </div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px">
+  <div style="border:1px solid #ddd; border-radius:20px; padding:20px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
+    <h3 style="margin:0 0 2px; text-align:center; color:white; font-family:Trebuchet MS; font-size: 30px">Fidget Clicker</h3>
+    <p style="color:#666; margin:0 0 4px; font-style:italic; text-align:center;">A fidget toy, design journey.</p>
+    <div style="display:flex; Justify-content:center; gap:16px; margin-bottom: 20px;">
+      <a href="/fidget-clicker" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">View project</a>
+      <a href="https://www.etsy.com/listing/4518203256/neked-mechanical-clicker" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
+    </div>
+    <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
+  </div>
 
 ## Education
 
