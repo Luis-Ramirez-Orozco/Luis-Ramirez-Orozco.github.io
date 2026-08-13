@@ -24,7 +24,6 @@ title: Luis Ramirez Orozco
     </div>
     <img src="images/Pool Table/IMG_16.jpeg" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
-</div>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px">
   <div style="border:1px solid #ddd; border-radius:20px; padding:20px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
@@ -36,6 +35,7 @@ title: Luis Ramirez Orozco
     </div>
     <img src="images/Fidget Clicker/IMG_3166.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
+</div>
 
 ## Education
 
