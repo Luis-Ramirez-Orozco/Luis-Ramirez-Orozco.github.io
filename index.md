@@ -24,7 +24,7 @@ title: Luis Ramirez Orozco
       <a href="/Pool-Table" style="display:inline-block; background-color:#3b5bdb; color:white; padding: 5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold">View project</a>
       <a href="https://www.etsy.com/listing/4550748187/mini-billiards-table-machined-desk" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#3b5bdb; color:white; padding:5px 20px; border-radius:20px; text-decoration:none; font-family:Trebuchet MS; font-weight:bold;">Buy</a>
     </div>
-    <img src="images/Pool Table/30.2.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
+    <img src="images/Pool Table/30.2.0.JPG" style="width:100%; border-radius:6px; margin-bottom:12px;">
   </div>
 
   <div style="border:1px solid #ddd; border-radius:20px; padding:20px; background: linear-gradient(to bottom, rgb(154,161,159) 0%, rgb(226,231,233) 50%);">
