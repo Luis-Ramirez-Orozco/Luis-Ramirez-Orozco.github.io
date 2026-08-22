@@ -15,11 +15,14 @@ The steepest learning curve here was learning to machine Aluminum. I purchased 6
 
 ## The Process
 
-{% include carousel.html id="pool" folder="/images/Pool Table" images="0.0|0.1|0.2|0.3|0.4|1.0.mp4|2.0.mp4|3.0.mp4|4.0.mp4|5.0.mp4|6.0.mp4|7.0.mp4" 
+{% include carousel.html id="pool" folder="/images/Pool Table" images="0.0.jpg|0.1|0.2|0.3|0.4|1.0.mp4|2.0.mp4|3.0.mp4|4.0.mp4|5.0.mp4|6.0.mp4|7.0.mp4|8.0.mp4|9.0.mp4|10.0.mp4|11.0.mp4|12.0.mp4|13.0.mp4|14.0.mp4|15.0.mp4|16.0.mp4|" 
 
-descriptions=" 1|2|3|4|5|6|7|8|9|10|11|12"
+descriptions=" 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21"
 
-//|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58"
+{% comment %}
+|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58"
+{% comment %}
+
 %}
 
 
