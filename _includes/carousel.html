@@ -16,14 +16,15 @@
     </div>
  
     {% if include.dates %}
-    <!-- Timeline-style indicator with a date label under each marker -->
-    <div style="position:relative; margin-top:24px; padding:0 6px;">
-      <div style="position:absolute; top:9px; left:6px; right:6px; height:2px; background:#ddd; z-index:0;"></div>
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; position:relative; z-index:1;">
+    <!-- Timeline-style indicator: fixed-width viewport, active dot always centered,
+         date labels shown only for first / active / last dot -->
+    <div id="{{ include.id }}-timeline-viewport" style="position:relative; margin-top:24px; overflow:hidden; padding:6px 0;">
+      <div id="{{ include.id }}-timeline-track" style="display:flex; align-items:flex-start; position:relative; transition: transform 0.25s ease-out; will-change: transform;">
         {% for img in carousel_images %}
         <button class="{{ include.id }}-dot" onclick="jumpCarousel('{{ include.id }}', {{ forloop.index0 }})"
-          aria-label="Go to item {{ forloop.index }}"
-          style="display:flex; flex-direction:column; align-items:center; background:none; border:none; cursor:pointer; padding:0; flex:1;">
+          aria-label="Go to item {{ forloop.index }}, {{ carousel_dates[forloop.index0] }}"
+          title="{{ carousel_dates[forloop.index0] }}"
+          style="display:flex; flex-direction:column; align-items:center; background:none; border:none; cursor:pointer; padding:0; flex:0 0 56px;">
           <span class="{{ include.id }}-dot-marker"
             style="width:{% if forloop.first %}14px{% else %}10px{% endif %}; height:{% if forloop.first %}14px{% else %}10px{% endif %};
                    border-radius:50%; background:{% if forloop.first %}#3b5bdb{% else %}#ccc{% endif %};
@@ -31,7 +32,7 @@
           <span class="{{ include.id }}-dot-label"
             style="margin-top:8px; font-size:12px; font-family:'Georgia', serif;
                    color:{% if forloop.first %}#3b5bdb{% else %}#888{% endif %};
-                   font-weight:{% if forloop.first %}600{% else %}400{% endif %}; white-space:nowrap; transition: all 0.25s ease;">{{ carousel_dates[forloop.index0] }}</span>
+                   font-weight:{% if forloop.first %}600{% else %}400{% endif %}; white-space:nowrap; transition: all 0.25s ease;">{% if forloop.first or forloop.last %}{{ carousel_dates[forloop.index0] }}{% endif %}</span>
         </button>
         {% endfor %}
       </div>
@@ -64,15 +65,30 @@
     folder: "{{ include.folder }}",
     index: 0
   };
+
+  var DOT_WIDTH_{{ include.id | replace: "-", "_" }} = 56; // must match the flex:0 0 56px above
+
   function isVideoFile(filename) {
     var videoExts = ['mov', 'mp4', 'm4v', 'webm', 'ogv'];
     var ext = filename.split('.').pop().toLowerCase();
     return videoExts.indexOf(ext) !== -1;
   }
+
+  function centerTimeline(id, index) {
+    var viewport = document.getElementById(id + "-timeline-viewport");
+    var track = document.getElementById(id + "-timeline-track");
+    if (!viewport || !track) return; // no-op when dates weren't passed (fallback mode)
+    var dotWidth = 56;
+    var viewportWidth = viewport.clientWidth;
+    var offset = (viewportWidth / 2) - (index * dotWidth) - (dotWidth / 2);
+    track.style.transform = "translateX(" + offset + "px)";
+  }
+
   function jumpCarousel(id, index) {
     var scrollY = window.scrollY;
     var state = window.carouselState[id];
     state.index = index;
+    var lastIndex = state.images.length - 1;
     var file = state.images[index];
     var imgEl = document.getElementById(id + "-main");
     var videoEl = document.getElementById(id + "-video");
@@ -102,13 +118,17 @@
       var marker = dot.querySelector("." + id + "-dot-marker");
       var label = dot.querySelector("." + id + "-dot-label");
       if (marker) {
-        /* Timeline mode: resize/recolor the marker + label */
-        marker.style.width = (i === index) ? "14px" : "10px";
-        marker.style.height = (i === index) ? "14px" : "10px";
-        marker.style.background = (i === index) ? "#3b5bdb" : "#ccc";
+        /* Timeline mode: resize/recolor the marker, and show text only for first/active/last */
+        var isActive = (i === index);
+        var isFirst = (i === 0);
+        var isLast = (i === lastIndex);
+        marker.style.width = isActive ? "14px" : "10px";
+        marker.style.height = isActive ? "14px" : "10px";
+        marker.style.background = isActive ? "#3b5bdb" : "#ccc";
         if (label) {
-          label.style.color = (i === index) ? "#3b5bdb" : "#888";
-          label.style.fontWeight = (i === index) ? "600" : "400";
+          label.style.color = isActive ? "#3b5bdb" : "#888";
+          label.style.fontWeight = isActive ? "600" : "400";
+          label.textContent = (isFirst || isActive || isLast) ? state.dates[i] : "";
         }
       } else {
         /* Fallback plain-dot mode */
@@ -116,13 +136,16 @@
         dot.style.background = (i === index) ? "#3b5bdb" : "#ccc";
       }
     });
+    centerTimeline(id, index);
     window.scrollTo(0, scrollY);
   }
+
   function moveCarousel(id, direction) {
     var state = window.carouselState[id];
     var newIndex = (state.index + direction + state.images.length) % state.images.length;
     jumpCarousel(id, newIndex);
   }
+
   (function () {
     var wrap = document.getElementById("{{ include.id }}-carousel");
     var startX = null;
@@ -133,6 +156,11 @@
       if (delta > 50) moveCarousel("{{ include.id }}", -1);
       else if (delta < -50) moveCarousel("{{ include.id }}", 1);
       startX = null;
+    });
+    // Center on initial load and keep centered on resize
+    centerTimeline("{{ include.id }}", 0);
+    window.addEventListener('resize', function () {
+      centerTimeline("{{ include.id }}", window.carouselState["{{ include.id }}"].index);
     });
   })();
 </script>
